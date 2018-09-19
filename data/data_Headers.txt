@@ -1,0 +1,18 @@
+cols:
+  [1]     CPU TimeStamp
+  [2]     Simulation TimeStamp
+  [3-6]   ECM_Joint_Angles
+  [7-9]   Camera_Pos
+  [10-18] Camera_Rot
+  [19-21] Rcm_Pos
+  [22-30] Rcm_Rot
+  [31-33] Ring_Pos
+  [34-36] Target_Pos
+  [37]    Subtask
+  [38-40] Gripper_Pos
+  [41-49] Gripper_Rot
+  [50]    Gripper_Angle
+
+//Positions are x, y and z
+//Orientation is specified in rotation matrix with each element being row wise.
+//For example values are stored in consecutive columns as: x, y, z, r00, r01, r02, r10, r11, r12,...
